@@ -1,5 +1,5 @@
 {
-  "name": "@flighthq/engine",
+  "name": "@flighthq/animation-tween",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -21,23 +21,12 @@
     "test:run": "vitest run"
   },
   "dependencies": {
-    "@flighthq/animation-spritesheet": "*",
     "@flighthq/animation-easing": "*",
-    "@flighthq/animation-tween": "*",
-    "@flighthq/foundation": "*",
-    "@flighthq/geometry": "*",
-    "@flighthq/materials": "*",
-    "@flighthq/render-core": "*",
-    "@flighthq/render-canvas": "*",
-    "@flighthq/scene-graph-core": "*",
-    "@flighthq/scene-graph-display": "*",
-    "@flighthq/scene-graph-sprite": "*",
-    "@flighthq/scene-graph-world": "*",
     "@flighthq/signals": "*",
     "@flighthq/types": "*"
   },
   "devDependencies": {
     "typescript": "^5.3.0"
   },
-  "description": "Single entry point re-exporting all packages"
+  "description": "Tween animation system with easing functions"
 }
